@@ -1,0 +1,181 @@
+body{
+    font-family:Source Sans Pro, Arial, Helvetica, sans-serif;
+    background-color:#f2f2f2;
+}
+
+ol, ul {
+    padding-left:0;
+}
+
+
+
+#navbarNav{
+    display:flex;
+    justify-content:end;
+}
+
+
+
+.nav-item a:hover{
+    color:red;
+}
+
+.nav-link:hover{
+    color:black;
+}
+
+#jupiter:hover{
+    color:red;
+}
+
+.nav-logo {
+    width: 254px;
+    height:82px;
+}
+
+#navbarNav{
+    display:flex;
+    justify-content:end;
+}
+
+div {background-color: white;}
+div a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: white; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: red;}
+
+
+
+
+
+
+
+
+
+.resources-section{
+    width:74.375vw;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:auto;
+}
+
+.resources-section .row{
+    padding-left:0 !important;
+    padding-right:0 !important;
+    margin-right:0;
+    margin-left:0;
+}
+
+body > main > div.resources-section > div:nth-child(1){
+    padding-top:0;
+}
+.feature p{
+    width:auto;
+}
+
+.feature{
+    border:2px black solid;
+    padding-left:0;
+    padding-right:0;
+    width:33.33%;
+}
+
+
+
+.main-container{
+    background-color:#b00c17;
+}
+
+
+.intro-video-section{
+    display:flex;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:74.375vw;
+    height:62.5vh;
+    filter: brightness(50%);
+    background-image:url('./media/school-background.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    /*overflow:hidden;*/
+    /*background-color:purple;*/
+}
+
+.video{
+    width:20vw;
+    height:40vh;
+    border:2px black solid;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10vh;
+}
+
+.quick-nav-container{
+    background-color:black;
+    color:white;
+    width:74.375vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.quick-nav-list{
+    list-style-type:none;
+    display:flex;
+    justify-content:space-around;
+}
+.quick-nav-item{
+    font-size:1.15em;
+    line-height:20px;
+    padding: 35px 40px;
+    text-transform:uppercase;
+    font-weight:normal;
+}
+.quick-nav-list a{
+    text-decoration:none;
+    color:inherit;
+    width:100%;
+    text-align:center;
+}
+
+.quick-nav-list a:hover{
+    background-color:#222222;
+}
+
+h3{
+	color: red;
+}
+
+
+/*
+.intro-video-section{
+    width:74.375vw;
+    background-color:blue;
+    margin-left:auto;
+    margin-right:auto;
+    height:62.5vh;
+}*/
